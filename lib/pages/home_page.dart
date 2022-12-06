@@ -298,7 +298,7 @@ class _MyHomePageState extends State<MyHomePage> {
             AppNav.cupertinoPush(context: context, route: const AddNewPage()),
         child: const Icon(Icons.add, color: Colors.white),
         style: ElevatedButton.styleFrom(
-          shape: const CircleBorder(),
+          shape: CircleBorder(),
           padding: const EdgeInsets.all(15),
         ),
       ),
